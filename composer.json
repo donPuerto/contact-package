@@ -1,0 +1,26 @@
+{
+    "name": "donpuerto/contact",
+    "description": "Pkg development",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Don Puerto",
+        "email": "don.puerto@hotmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Donpuerto\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Donpuerto\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+
+
+}
